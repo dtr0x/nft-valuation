@@ -5,5 +5,5 @@
 # $2 := opensea slug name for collection
 
 for i in {0..9999};
-  do ipfs get $1/$i -o $2/$i.json;
+  do ipfs get $1/$i -o metadata/$2/$i.json;
 done
